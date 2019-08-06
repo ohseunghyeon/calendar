@@ -1,0 +1,6 @@
+[submodule "calendar-server"]
+	path = calendar-server
+	url = git@github.com:ohseunghyeon/calendar-server.git
+[submodule "calendar-client"]
+	path = calendar-client
+	url = git@github.com:ohseunghyeon/calendar-server.git
