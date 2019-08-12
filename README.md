@@ -1,5 +1,11 @@
 # 프로젝트 빌드, 실행 방법
 
+## 다운로드
+
+server, client가 각각의 repository로 구성되어 있으므로 둘을 따로 다운받거나 다음의 명령어로 한꺼번에 다운 받으세요.
+
+git clone --recurse-submodules https://github.com/ohseunghyeon/calendar.git
+
 ## Prerequisite
 
 1. node.js (v10.16.1 LTS) (https://nodejs.org/ko/)
@@ -21,6 +27,13 @@ $ cd calendar-server & yarn dev
 
 $ cd calendar-client & yarn start
 ```
+
+# Demo
+
+url: https://ohseunghyeon.github.io/calendar-client
+
+서버와의 통신 속도가 느려서 원활한 테스트가 어렵습니다.
+local에서의 테스트를 추천드립니다.
 
 # 문제 해결 전략
 
