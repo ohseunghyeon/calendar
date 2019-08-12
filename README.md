@@ -83,4 +83,18 @@
 
 2. yarn (https://yarnpkg.com/en/docs/install)
 
+## Install dependencies
 
+```
+$ cd calendar-server & yarn
+
+$ cd calendar-client & yarn
+```
+
+## Run
+
+```
+$ cd calendar-server & yarn dev
+
+$ cd calendar-client & yarn start
+```
