@@ -1,3 +1,27 @@
+# 프로젝트 빌드, 실행 방법
+
+## Prerequisite
+
+1. node.js (v10.16.1 LTS) (https://nodejs.org/ko/)
+
+2. yarn (https://yarnpkg.com/en/docs/install)
+
+## Install dependencies
+
+```
+$ cd calendar-server & yarn
+
+$ cd calendar-client & yarn
+```
+
+## Run
+
+```
+$ cd calendar-server & yarn dev
+
+$ cd calendar-client & yarn start
+```
+
 # 문제 해결 전략
 
 * 서버
@@ -74,27 +98,3 @@
     5. 캘린더를 그리는 방법은?
         * 월 뷰: 현재 달의 첫 날을 가져온 뒤 그 날이 있는 주의 일요일을 가져온다. 다음으로 달의 마지막 날을 가져와서 그 주의 토요일을 가져오자. 이를 바탕으로 각 주를 div로 감싸서 그리고 각 날을 주 내부에 div로 그리면서 일 div에는 일정을 각각 넣어주면 될 것 같다.
         * 주 뷰: 월 뷰와 비슷한게 특정 날짜를 기준으로 일요일부터 토요일까지 가져오게 하자.
-
-# 프로젝트 빌드, 실행 방법
-
-## Prerequisite
-
-1. node.js (v10.16.1 LTS) (https://nodejs.org/ko/)
-
-2. yarn (https://yarnpkg.com/en/docs/install)
-
-## Install dependencies
-
-```
-$ cd calendar-server & yarn
-
-$ cd calendar-client & yarn
-```
-
-## Run
-
-```
-$ cd calendar-server & yarn dev
-
-$ cd calendar-client & yarn start
-```
