@@ -12,29 +12,29 @@ git clone --recurse-submodules https://github.com/ohseunghyeon/calendar.git
 
 1. node.js (v10.16.1 LTS) (https://nodejs.org/ko/)
 
-2. yarn (https://yarnpkg.com/en/docs/install)
+2. yarn (https://yarnpkg.com/en/docs/install) (없어도 무방합니다.)
 
 ## Install dependencies
 
 ```
-$ cd calendar-server & yarn
+$ cd calendar-server & yarn (또는 npm i)
 
-$ cd calendar-client & yarn
+$ cd calendar-client & yarn (또는 npm i)
 ```
 
 ## Run
 
 ```
-$ cd calendar-server & yarn dev
+$ cd calendar-server & yarn dev (또는 npm run dev)
 
-$ cd calendar-client & yarn start
+$ cd calendar-client & yarn start (또는 npm run start)
 ```
 
 # Demo
 
 url: https://ohseunghyeon.github.io/calendar-client
 
-서버와의 통신 속도가 느려서 원활한 테스트가 어렵습니다.
+Demo는 서버와의 통신 속도가 느려서 원활한 테스트가 어렵습니다.
 local에서의 테스트를 추천드립니다.
 
 # 문제 해결 전략
