@@ -4,7 +4,9 @@
 
 server, client가 각각의 repository로 구성되어 있으므로 둘을 따로 다운받거나 다음의 명령어로 한꺼번에 다운 받으세요.
 
+```
 git clone --recurse-submodules https://github.com/ohseunghyeon/calendar.git
+```
 
 ## Prerequisite
 
