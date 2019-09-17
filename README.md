@@ -30,13 +30,6 @@ $ cd calendar-server & yarn dev (또는 npm run dev)
 $ cd calendar-client & yarn start (또는 npm run start)
 ```
 
-# Demo
-
-url: https://ohseunghyeon.github.io/calendar-client
-
-Demo는 서버와의 통신 속도가 느려서 원활한 테스트가 어렵습니다.
-local에서의 테스트를 추천드립니다.
-
 # 문제 해결 전략
 
 * 서버
